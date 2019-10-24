@@ -36,7 +36,8 @@ def list_of_directors(source)
 end
 
 def total_gross(source) 
-  director_array = list_of_directors(source)
+  list list_of_directorsgross_for_director(source)
+  
   pp thing
 end
 
