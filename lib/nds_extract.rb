@@ -36,7 +36,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source) 
-  thing = list_directors(source)
+  thing = list_of_directors_directors(source)
   pp thing
 end
 
