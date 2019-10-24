@@ -36,10 +36,11 @@ def list_of_directors(source)
 end
 
 def total_gross(source) 
-  index = 0
+  director_array = list_of_directors(source)
+  total = 0
   while index < source.length
-    list_of_directors[index]
-    
+    total = gross_for_director(director_array[index])
+    index += 1
   end
 end
 
