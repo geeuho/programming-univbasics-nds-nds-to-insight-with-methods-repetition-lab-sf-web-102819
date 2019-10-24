@@ -35,7 +35,9 @@ def list_of_directors(source)
   director_array
 end
 
-def total_gross(source)
+def total_gross(source) 
+#source = director_database
+  source
   
 end
 
