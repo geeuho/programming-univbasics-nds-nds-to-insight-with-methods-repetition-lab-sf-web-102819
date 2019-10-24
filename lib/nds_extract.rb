@@ -32,6 +32,7 @@ def list_of_directors(source)
     director_array.push(director)
     source_index += 1
   end
+  director_array
 end
 
 def total_gross(source)
