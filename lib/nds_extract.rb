@@ -39,7 +39,7 @@ def total_gross(source)
   index = 0
   total = 0
   while index < source.length
-    total += gross_for_director(director_array[index])
+    total += gross_for_director(source[index])
     index += 1
   end
   total
