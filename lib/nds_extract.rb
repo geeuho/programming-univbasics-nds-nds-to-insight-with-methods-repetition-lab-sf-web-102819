@@ -37,10 +37,10 @@ end
 
 def total_gross(source) 
   index = 0
-  while source_index < source.length
-    list_of_directors[index]gross_for_director
-  
-  pp thing
+  while index < source.length
+    list_of_directors[index]
+    
+  end
 end
 
 
